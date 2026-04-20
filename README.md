@@ -23,7 +23,7 @@ Configured in `config/scenes.yaml`:
 
 ## Build Docker Image
 
-Build from `/home/aryamanr/nuscenes-colorization`:
+Build from your project root (example shown below):
 
 ```bash
 docker build -t nuscenes-colorization \
@@ -43,7 +43,7 @@ Why these args matter:
 
 ```bash
 docker run --gpus all -it --rm \
-  -v /home/aryamanr/nuscenes-colorization:/workspace/nuscenes-colorization \
+  -v /home/aryamanr/nuscenes-sensor-fusion:/workspace/nuscenes-colorization \
   -v /mnt/workspace/datasets/nuscenes:/data/nuscenes \
   nuscenes-colorization
 ```
