@@ -1,0 +1,19 @@
+candidate_scene_ids:
+  - "0039"
+  - "0054"
+  - "0061"
+  - "0066"
+  - "0104"
+  - "0108"
+  - "0122"
+  - "0176"
+  - "0180"
+  - "0193"
+
+# Choose at most 5 for final rendering/submission.
+selected_scene_ids:
+  - "0039"
+  - "0104"
+  - "0122"
+  - "0180"
+  - "0193"
